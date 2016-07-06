@@ -1,20 +1,23 @@
 .container
 {
   width:300px;
-  height: 450px;
+  height: 370px;
   margin:auto;
   background-color: lightblue;
 }
 .container input{
-  margin:50px;
+ margin-left:10px;
   width:200px;
   height:30px;
+  background-color: black;
+  color:white;
 }
 .container1
 {
   width:300px;
   height:400px;
   margin-left:27px;
+display: inline-block;
 
 }
 .button1{
@@ -23,11 +26,47 @@
   background-color: white;
 display: inline-block;
 margin: 5px;
+border-radius: 5px;
+box-shadow: 5px 5px 10px #888888;
+
+}
+.button1:hover{
+  background-color: blue;
+  cursor: pointer;
+  color:white;
 }
 .button1 p{
   font-size: 23px;
   margin:8px;
+  margin-left:18px;
 }
-#l{
-  width:110px;
+
+#l p{
+margin-left:10px;
+
+}
+
+.button2{
+  width:50px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: white;
+display: inline-block;
+border-radius: 5px;
+box-shadow: 5px 5px 10px #888888;
+}
+.button2 p{
+  font-size: 23px;
+  margin:8px;
+  margin-left:18px;
+}
+.button2:hover{
+  background-color: blue;
+  cursor: pointer;
+color:white;
+}
+.button1:active{
+  transform: translateX(4px);
+  
 }
